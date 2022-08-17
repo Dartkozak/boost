@@ -1,0 +1,5 @@
+@include media-breakpoint-up(lg) {
+  .mg-6-lg {
+    margin-bottom: ($spacer * 6) !important;
+  }
+}
