@@ -6612,10 +6612,6 @@ textarea.form-control-lg{
   --bs-accordion-bg:rgb(245, 219, 16);
 }
 
-.btn{
-  --bs-btn-font-family:var(--bs-font-sans-serif);
-}
-
 @media (min-width: 576px){
   .container-sm, .container{
     max-width:540px;
