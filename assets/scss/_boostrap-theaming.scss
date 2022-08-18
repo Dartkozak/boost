@@ -1,5 +1,10 @@
-@include media-breakpoint-up(lg) {
-  .mg-6-lg {
-    margin-bottom: ($spacer * 6) !important;
-  }
+.accordion {
+  --bs-accordion-active-color: white;
+  --bs-accordion-active-bg: rgb(237, 97, 97);
+  --bs-accordion-color: #000;
+  --bs-accordion-bg: rgb(245, 219, 16);
+}
+
+.btn {
+  --bs-btn-font-family: var(--bs-font-sans-serif);
 }
