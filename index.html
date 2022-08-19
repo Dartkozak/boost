@@ -159,40 +159,40 @@
 
           <form class="mb-6 mt-4">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label fs-5 fw-bold">Логин</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ваш Логин">
+              <label for="login" class="form-label fs-5 fw-bold">Логин</label>
+              <input type="email" class="form-control" id="login" placeholder="Ваш Логин">
             </div>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label fs-5 fw-bold">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Ваш Email">
+              <label for="email" class="form-label fs-5 fw-bold">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ваш Email">
               <div id="emailHelp" class="form-text">We always share your email with everyone.</div>
             </div>
-            <div><label for="exampleDataList" class="form-label fs-5 fw-bold">Выберете фильм</label>
+            <div>
+              <label class="form-label fs-5 fw-bold">Выберете фильм</label>
               <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Kill Bill</label>
+                <input class="form-check-input" type="checkbox" role="switch" id="killbill">
+                <label class="form-check-label" for="killbill">Kill Bill</label>
               </div>
               <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckChecked">Inglourious Basterds</label>
+                <input class="form-check-input" type="checkbox" role="switch" id="basterds">
+                <label class="form-check-label" for="basterds">Inglourious Basterds</label>
               </div>
               <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckDisabled">Pulp Fiction</label>
+                <input class="form-check-input" type="checkbox" role="switch" id="fiction">
+                <label class="form-check-label" for="fiction">Pulp Fiction</label>
               </div>
               <div class="form-check form-switch mb-3">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Reservoir Dogs</label>
+                <input class="form-check-input" type="checkbox" role="switch" id="dogs">
+                <label class="form-check-label" for="dogs">Reservoir Dogs</label>
               </div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label fs-5 fw-bold">Пароль</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ваш Пароль">
+              <label for="password" class="form-label fs-5 fw-bold">Пароль</label>
+              <input type="password" class="form-control" id="password" placeholder="Ваш Пароль">
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label fs-5 fw-bold">Комментарии</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <label for="textarea" class="form-label fs-5 fw-bold">Комментарии</label>
+              <textarea class="form-control" id="textarea" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Отправить</button>
           </form>
@@ -203,8 +203,9 @@
         <div class="col bg-danger text-light py-2">O.Kozak</div>
       </div>
     </div>
+  </div>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
